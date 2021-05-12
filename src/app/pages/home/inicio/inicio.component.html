@@ -1,0 +1,35 @@
+<style>
+
+</style>
+
+<br>
+<div class="esconderpokemon" id="resutPoket">
+    <div class="container ">
+        <button type="button" id="cerrarinfo" class="btn btn-default btn-circle float-right border"><i class="fa fa-times"></i></button>
+    </div>
+
+
+    <div class="" id="polemonbuscar"></div>
+    <br><br><br><br>
+</div>
+<div class="container" id="catalogo">
+    <br>
+    <div class="row ">
+        <div *ngFor="let poket of card, let lastIndex= last" class="col-4 col-sm-4 col-md-4 ">
+            <div class=" ">
+                <a routerLink="products/{{poket.name}} ">
+                    <div class="pokeimage ">
+
+                    </div>
+                    <div class="card-body ">
+                        <h5 class="card-title text-center image " [attr.poke]="poket.name ">{{poket.name}}</h5>
+                        <div class="num"></div>
+                    </div>
+                </a>
+            </div>
+
+            <hr>
+            <br> {{lastIndex ? callback() : " "}}
+        </div>
+    </div>
+</div>

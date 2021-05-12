@@ -1,0 +1,135 @@
+<style>
+    @media (min-width:1200px) {
+        .bajotexto {
+            display: none;
+        }
+    }
+    
+    @media (max-width:1199px) and (min-width:992px) {
+        .bajotexto {
+            display: none;
+        }
+    }
+    
+    @media (max-width:991px) and (min-width:768px) {
+        .bajotexto {
+            display: none;
+        }
+    }
+    
+    @media (max-width:767px) {
+        .altotexto {
+            display: none;
+        }
+    }
+</style>
+
+<br>
+<div class="" id="resutPoket">
+    <div class="container ">
+        <a href="/">
+            <button type="button" href="" id="" class="btn btn-default btn-circle float-right border"><i class="fa fa-times"></i></button>
+        </a>
+    </div>
+    <div class="" id="polemonbuscar"></div>
+    <br>
+</div>
+
+<div class="container p-5">
+    <div class="row ">
+        <div class="col-4 col-md-3">
+            <img src="{{image}}" class="rounded float-left" alt="...">
+        </div>
+
+        <div class="col-8 col-md-9">
+            <br>
+            <h5>{{name[0]}}</h5>
+            <a class="mr-20" style="background: #d8d8d8" href="#"> Manuel</a>
+            <p class="altotexto abilityinfo"></p>
+        </div>
+        <div class="col-12 col-md-6">
+            <br>
+            <p class="bajotexto abilityinfo"></p>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-xl-4 col-lg-4 col-sm-4 col-4 ">
+                <div class="ps-block--category" style="background: rgb(209, 209, 209);">
+                    <a class="ps-block__overlay" href="cardcolor"></a>
+                    <img style="width: 60%; " src="{{path}}/img/insignias.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-sm-4 col-4 ">
+                <div class="ps-block--category" style="background: rgb(209, 209, 209);">
+                    <a class="ps-block__overlay" href="#"></a>
+                    <img style="width: 60%;" src="{{path}}/img/pokebola1.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-sm-4 col-4 ">
+                <div class="ps-block--category" style="background: rgb(209, 209, 209);">
+                    <a class="ps-block__overlay" href="#"></a>
+                    <img style="width: 60%;" src="{{path}}/img/huevo.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br><br>
+    <h6>Stadistic</h6>
+    <div class="row">
+        <div class="col-xl-3 col-lg-3 col-sm-5 col-3 text-center">
+            <p class="">Hp</p>
+        </div>
+        <div class="col-xl-9 col-lg-9 col-sm-4 col-9 " style=" bottom: -6px;">
+            <div class="progress" id="hp">
+
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-sm-5 col-3 text-center">
+            <p class="">Attack</p>
+        </div>
+        <div class="col-xl-9 col-lg-9 col-sm-4 col-9 " style=" bottom: -6px;">
+            <div class="progress" id="Attack">
+
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-sm-5 col-3 text-center">
+            <p class="">Defense</p>
+        </div>
+        <div class="col-xl-9 col-lg-9 col-sm-4 col-9 " style=" bottom: -6px;">
+            <div class="progress" id="Defense">
+
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-sm-5 col-3 text-center">
+            <p class="">Special-attack</p>
+        </div>
+        <div class="col-xl-9 col-lg-9 col-sm-4 col-9 " style=" bottom: -6px;">
+            <div class="progress" id="Specialattack">
+
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-sm-5 col-3 text-center">
+            <p class="">Special-defense</p>
+        </div>
+        <div class="col-xl-9 col-lg-9 col-sm-4 col-9 " style=" bottom: -6px;">
+            <div class="progress" id="Specialdefense">
+
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-sm-5 col-3 text-center">
+            <p class="">speed</p>
+        </div>
+        <div class="col-xl-9 col-lg-9 col-sm-4 col-9 " style=" bottom: -6px;">
+            <div class="progress" id="speed">
+
+            </div>
+        </div>
+    </div>
+</div>
