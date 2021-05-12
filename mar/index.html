@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <base href="https://maniortiz98.github.io/mar/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <title>Pokedex</title>
+
+    <link rel="icon" href="assets/img/pokebola1.png">
+    <link rel="icon" type="image/x-icon" href="assets/img/pokebola1.png">
+
+
+    <!-- google font -->
+    <style type="text/css">@font-face{font-family:'Work Sans';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/worksans/v9/QGYsz_wNahGAdqQ43Rh_c6DptfpA4cD3.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Work Sans';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/worksans/v9/QGYsz_wNahGAdqQ43Rh_cqDptfpA4cD3.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Work Sans';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/worksans/v9/QGYsz_wNahGAdqQ43Rh_fKDptfpA4Q.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Work Sans';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/worksans/v9/QGYsz_wNahGAdqQ43Rh_c6DptfpA4cD3.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Work Sans';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/worksans/v9/QGYsz_wNahGAdqQ43Rh_cqDptfpA4cD3.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Work Sans';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/worksans/v9/QGYsz_wNahGAdqQ43Rh_fKDptfpA4Q.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Work Sans';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/worksans/v9/QGYsz_wNahGAdqQ43Rh_c6DptfpA4cD3.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Work Sans';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/worksans/v9/QGYsz_wNahGAdqQ43Rh_cqDptfpA4cD3.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Work Sans';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/worksans/v9/QGYsz_wNahGAdqQ43Rh_fKDptfpA4Q.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Work Sans';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/worksans/v9/QGYsz_wNahGAdqQ43Rh_c6DptfpA4cD3.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Work Sans';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/worksans/v9/QGYsz_wNahGAdqQ43Rh_cqDptfpA4cD3.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Work Sans';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/worksans/v9/QGYsz_wNahGAdqQ43Rh_fKDptfpA4Q.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Work Sans';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/worksans/v9/QGYsz_wNahGAdqQ43Rh_c6DptfpA4cD3.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Work Sans';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/worksans/v9/QGYsz_wNahGAdqQ43Rh_cqDptfpA4cD3.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Work Sans';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/worksans/v9/QGYsz_wNahGAdqQ43Rh_fKDptfpA4Q.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome.min.css">
+    <!-- linear icons -->
+    <link rel="stylesheet" href="assets/css/plugins/linearIcons.css">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="assets/css/plugins/owl.carousel.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="assets/css/plugins/slick.css">
+    <!-- Light Gallery -->
+    <link rel="stylesheet" href="assets/css/plugins/lightgallery.min.css">
+    <!-- Font Awesome Start -->
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome-stars.css">
+    <!-- jquery Ui -->
+    <link rel="stylesheet" href="assets/css/plugins/jquery-ui.min.css">
+    <!-- Select 2 -->
+    <link rel="stylesheet" href="assets/css/plugins/select2.min.css">
+    <!-- Scroll Up -->
+    <link rel="stylesheet" href="assets/css/plugins/scrollUp.css">
+    <!-- DataTable -->
+    <link rel="stylesheet" href="assets/css/plugins/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/responsive.bootstrap.datatable.min.css">
+    <!-- estilo principal -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <!-- estilos de pokebolas footer -->
+    <link rel="stylesheet" href="assets/css/stylefooter.css">
+    <!-- Market Place 4 -->
+    <link rel="stylesheet" href="assets/css/market-place-4.css">
+
+    <!--=====================================
+	PLUGINS JS
+	======================================-->
+
+    <!-- jQuery library -->
+    <script src="assets/js/plugins/jquery-1.12.4.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="assets/js/plugins/owl.carousel.min.js"></script>
+    <!-- Images Loaded -->
+    <script src="assets/js/plugins/imagesloaded.pkgd.min.js"></script>
+    <!-- Masonry -->
+    <script src="assets/js/plugins/masonry.pkgd.min.js"></script>
+    <!-- Isotope -->
+    <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+    <!-- jQuery Match Height -->
+    <script src="assets/js/plugins/jquery.matchHeight-min.js"></script>
+    <!-- Slick -->
+    <script src="assets/js/plugins/slick.min.js"></script>
+    <!-- jQuery Barrating -->
+    <script src="assets/js/plugins/jquery.barrating.min.js"></script>
+    <!-- Slick Animation -->
+    <script src="assets/js/plugins/slick-animation.min.js"></script>
+    <!-- Light Gallery -->
+    <script src="assets/js/plugins/lightgallery-all.min.js"></script>
+    <!-- jQuery UI -->
+    <script src="assets/js/plugins/jquery-ui.min.js"></script>
+    <!-- Sticky Sidebar -->
+    <script src="assets/js/plugins/sticky-sidebar.min.js"></script>
+    <!-- Slim Scroll -->
+    <script src="assets/js/plugins/jquery.slimscroll.min.js"></script>
+    <!-- Select 2 -->
+    <script src="assets/js/plugins/select2.full.min.js"></script>
+    <!-- Scroll Up -->
+    <script src="assets/js/plugins/scrollUP.js"></script>
+    <!-- DataTable -->
+    <script src="assets/js/plugins/jquery.dataTables.min.js"></script>
+    <script src="assets/js/plugins/dataTables.bootstrap4.min.js"></script>
+    <script src="assets/js/plugins/dataTables.responsive.min.js"></script>
+    <!-- Chart -->
+    <script src="assets/js/plugins/Chart.min.js"></script>
+    <!-- sweetalert2 -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+<link rel="stylesheet" href="styles.3ff695c00d717f2d2a11.css"></head>
+
+<body>
+    <app-root></app-root>
+    <script src="assets/js/main.js"></script>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script src="runtime.7b63b9fd40098a2e8207.js" defer=""></script><script src="polyfills.94daefd414b8355106ab.js" defer=""></script><script src="main.45b851caaf3c0acee255.js" defer=""></script></body>
+
+</html>
